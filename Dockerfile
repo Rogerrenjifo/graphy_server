@@ -1,4 +1,4 @@
-FROM node:22.8.0-bookworm-slim
+FROM node:iron-bookworm
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
